@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Web Site</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="./image/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar ">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+        <a href="#">Blogs</a>
+      </nav>
+
+      <div class="buttons">
+        <button>
+          <i class="fa fa-search"></i>
+        </button>
+        <button>
+          <i class="fa fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
+      <div class="search-form">
+        <input type="text" class="" id="search-box" placeholder="search here">
+        <i class="fa fa-search"></i>
+      </div>
+
+      <div class="cart-items-container active">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="./image/menu-1.png" alt="menu">
+          <div class="content">
+            <h3>Mega Boy Pizza</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="./image/menu-2.png" alt="menu">
+          <div class="content">
+            <h3>Burger</h3>
+            <div class="price">$10.99</div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="./image/menu-3.png" alt="menu">
+          <div class="content">
+            <h3>Special Pizza</h3>
+            <div class="price">$19.99</div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="./image/menu-4.png" alt="menu">
+          <div class="content">
+            <h3>Mega Burger</h3>
+            <div class="price">$20.99</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- home section start -->
+    <section class="home">
+      <div class="content">
+        <h3>EXPRESS HOME DELIVERY</h3>
+        <p>
+          Welcome to Bana B,R Restaurant! We specialize in authentic and
+          delicious Turkish cuisine, served with warm and friendly service. Our
+          menu features a wide variety of traditional dishes, made with fresh
+          and high-quality ingredients. Whether you're in the mood for a hearty
+          meal or a light bite, we've got something for everyone. We also offer
+          take-out and delivery service for your convenience. Come and join us
+          for a delightful dining experience with family and friends.
+        </p>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- menü section start -->
+    <section class="menu">
+      <h3 class="heading">our <span>menu</span></h3>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="./image/menu-1.png" alt="menu" />
+            <span class="menu-category">PIZZA</span>
+            <h3>6 Mini Pizzas</h3>
+            <div class="prices">$104.99 <span>119.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="./image/menu-2.png" alt="menu" />
+            <span class="menu-category">burger</span>
+            <h3>5 Mini Burgers</h3>
+            <div class="prices">$99.99 <span>109.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="./image/menu-3.png" alt="menu" />
+            <span class="menu-category">PIZZA</span>
+            <h3>2 Mixed Pizzas</h3>
+            <div class="prices">$49.99 <span>59.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="./image/menu-4.png" alt="menu" />
+            <span class="menu-category">Burger</span>
+            <h3>3 Burgers</h3>
+            <div class="prices">$79.99 <span>99.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menü section end -->
+
+    <!-- products section end -->
+    <section class="products">
+      <h1 class="heading">our <span>products</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <span class="title">MINI BURGER</span>
+            <a href="#" class="name">Bacon Burger</a>
+          </div>
+          <div class="image">
+            <img src="./image/product-1.png" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$24.00</b>
+              <span class="amount">110gr / 300Cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <span class="title">MINI BURGER</span>
+            <a href="#" class="name">Bacon Burger</a>
+          </div>
+          <div class="image">
+            <img src="./image/product-2.png" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$24.00</b>
+              <span class="amount">110gr / 300Cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box dark-bg">
+          <div class="box-head">
+            <span class="title">MINI BURGER</span>
+            <a href="#" class="name">Bacon Burger</a>
+          </div>
+          <div class="image">
+            <img src="./image/dark-product.jpg" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$24.00</b>
+              <span class="amount">110gr / 300Cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- products section end -->
+
+    <!-- about section end -->
+    <section class="about">
+      <h1 cclass="heading">about <span>us</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="./image/about.jpg" alt="about" />
+        </div>
+        <div class="content">
+          <h3>What Is The Secret Recipe Of Our Burgers?</h3>
+          <p>
+            Our burgers are made with a secret blend of 100% beef, hand-pressed
+            daily. Our buns are baked fresh every morning using a secret recipe
+            passed down for generations. Topped with only the freshest, locally
+            sourced vegetables and sauces, our burgers will leave your taste
+            buds wanting more.
+          </p>
+          <p>
+            Our burgers are seasoned with a secret blend of spices and herbs,
+            giving them a unique and irresistible flavor. The beef patty is
+            cooked to perfection on a grill that has been passed down from our
+            founder's great-grandfather. Our buns are made with a special blend
+            of flour and are infused with a secret ingredient that adds an extra
+            touch of flavor.
+          </p>
+          <p>
+            Our burgers are made with a secret combination of cuts of beef,
+            specially selected for their flavor and juiciness. Our buns are made
+            with a secret mixture of flour and are brushed with a secret butter
+            mixture before baking. Our secret sauce is made with a blend of
+            fresh herbs and spices, giving our burgers a one-of-a-kind taste
+            that you won't find anywhere else.
+          </p>
+          <a href="#" class="btn"> Learn more</a>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- Customer's Review section end -->
+    <section class="review">
+      <h1 class="heading">Customer's Review <span>us</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="./image/quote.png" alt="" />
+          <p>
+            I had the pleasure of trying one of the burgers at the restaurant
+            and it was one of the best burgers I've ever had. The secret blend
+            of spices and herbs in the beef patty really sets it apart, and the
+            fresh, locally sourced vegetables and sauces were the perfect
+            complement. I highly recommend you give it a try!
+          </p>
+          <img src="./image/avatar-1.png" class="user" alt="" />
+          <h3>Jennifer Becker</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./image/quote.png" alt="" />
+          <p>
+            I had the pleasure of trying the burger restaurant and it was
+            absolutely amazing. Burgers were cooked to perfection and the secret
+            sauce was out of this world. The service was also excellent and
+            offers an all-around great dining experience. I highly recommend you
+            give it a try.
+          </p>
+          <img src="./image/avatar-2.png" class="user" alt="" />
+          <h3>John Doe</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./image/quote.png" alt="" />
+          <p>
+            I had the pleasure of trying the burger restaurant and it was
+            absolutely amazing. Burgers were cooked to perfection and the secret
+            sauce was out of this world. The service was also excellent and
+            offers an all-around great dining experience. I highly recommend you
+            give it a try.
+          </p>
+          <img src="./image/avatar-3.png" class="user" alt="" />
+          <h3>Lisa Arambula</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Customer's Review section end -->
+
+    <!-- Contact section start -->
+    <section class="contact">
+      <h1 class="heading">Contact <span>us</span></h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12038.723829796667!2d29.031938!3d41.032235449999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab78eb4cc28d7%3A0xd6cc13bd2c633762!2zw5xza8O8ZGFyLCBLdXpndW5jdWssIDM0Njc0IMOcc2vDvGRhci_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1674501630953!5m2!1str!2str"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form>
+          <h3>Get In Touch</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="number" />
+          </div>
+          <input type="submit" class="btn" value="contact now" />
+        </form>
+      </div>
+    </section>
+    <!-- Contact section end -->
+
+    <!-- Blogs section start -->
+    <section class="blog">
+      <h1 class="heading">Our <span>blog</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="./image/blog-1.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make burgers?</a>
+            <span>by admin / 11st Oct, 2022</span>
+            <p>
+              To make a burger, you will need a few ingredients first. Mix
+              together ingredients like egg, flour, salt, pepper, and parsley to
+              prepare your dough. Then, add in ground beef and knead the dough
+              thoroughly. Form the patties and then cook them in the oven. You
+              will have a delicious burger ready to serve.
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./image/blog-2.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make a small burger?</a>
+            <span>by admin / 10st may, 2022</span>
+            <p>
+              Making mini burgers is a great option for those who want to enjoy
+              the taste of burgers but in a smaller portion. To make mini
+              burgers, you will need to prepare the dough by mixing together
+              ingredients like egg, flour, salt, pepper, and parsley. Once your
+              dough is ready, form smaller patties and cook them in the oven or
+              on a grill. With this method, you'll have perfect and delicious
+              mini burgers ready to serve.
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./image/blog-3.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how are mini burgers</a>
+            <span>by admin / 20st Jun, 2022</span>
+            <p>
+              Mini burgers are a great option for those who want to enjoy the
+              taste of burgers in a smaller portion. They are perfect for
+              parties, events or as a snack. They are easy to make and cook
+              quickly, making them a convenient choice for any occasion.
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blogs section end -->
+
+    <!-- Footer section end -->
+      <section class="footer">
+
+        <div class="search">
+          <input type="text" placeholder="Search" class="search-input">
+          <button class="btn btn-primary">search</button>
+        </div>
+
+        <div class="share">
+          <a href="#" class="fab fa-facebook"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+          <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Menu</a>
+          <a href="#">Products</a>
+          <a href="#">Review</a>
+          <a href="#">Contact</a>
+          <a href="#">Blogs</a>
+        </div>
+
+        <div class="credit">
+          created by <span>Mustafa Yıldız</span> | all rights reserve 
+        </div>
+      </section>
+    <!-- Footer section end -->
+
+  </body>
+</html>
